@@ -1,0 +1,1680 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYYYYDAYHH:MI"SS')                                       
+--------------------------------------------------------------------------------
+24 February  2023 Friday    09:26SS                                             
+
+
+User dropped.
+
+Connected.
+DROP USER des03 CASCADE
+          *
+ERROR at line 1:
+ORA-01918: user 'DES03' does not exist 
+
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE enrollment CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE course_section CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE term CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE course CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE student CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE faculty CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE location CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Procedure created.
+
+******************************************************************************  
+Faculty ID: 1.                                                                  
+Faculty Last Name: Cox. Faculty First Name: Kim.                                
+Faculty Rank: ASSO.                                                             
+******************************************************************************  
+------------------------------------------------------------------------------  
+Student ID: 1.                                                                  
+Student Last Name: Miller. Student First Name: Sarah.                           
+Date of Birth: 85-07-14.                                                        
+Student Class: SR.                                                              
+------------------------------------------------------------------------------  
+------------------------------------------------------------------------------  
+Student ID: 2.                                                                  
+Student Last Name: Umato. Student First Name: Brian.                            
+Date of Birth: 85-08-19.                                                        
+Student Class: SR.                                                              
+------------------------------------------------------------------------------  
+------------------------------------------------------------------------------  
+Student ID: 3.                                                                  
+Student Last Name: Black. Student First Name: Daniel.                           
+Date of Birth: 82-10-10.                                                        
+Student Class: JR.                                                              
+------------------------------------------------------------------------------  
+******************************************************************************  
+Faculty ID: 2.                                                                  
+Faculty Last Name: Blanchard. Faculty First Name: John.                         
+Faculty Rank: FULL.                                                             
+******************************************************************************  
+------------------------------------------------------------------------------  
+Student ID: 4.                                                                  
+Student Last Name: Mobley. Student First Name: Amanda.                          
+Date of Birth: 86-09-24.                                                        
+Student Class: SO.                                                              
+------------------------------------------------------------------------------  
+******************************************************************************  
+Faculty ID: 3.                                                                  
+Faculty Last Name: Williams. Faculty First Name: Jerry.                         
+Faculty Rank: ASST.                                                             
+******************************************************************************  
+------------------------------------------------------------------------------  
+Student ID: 6.                                                                  
+Student Last Name: Connoly. Student First Name: Michael.                        
+Date of Birth: 86-12-04.                                                        
+Student Class: FR.                                                              
+------------------------------------------------------------------------------  
+******************************************************************************  
+Faculty ID: 4.                                                                  
+Faculty Last Name: Sheng. Faculty First Name: Laura.                            
+Faculty Rank: INST.                                                             
+******************************************************************************  
+------------------------------------------------------------------------------  
+Student ID: 5.                                                                  
+Student Last Name: Sanchez. Student First Name: Ruben.                          
+Date of Birth: 86-11-20.                                                        
+Student Class: SO.                                                              
+------------------------------------------------------------------------------  
+******************************************************************************  
+Faculty ID: 5.                                                                  
+Faculty Last Name: Brown. Faculty First Name: Philip.                           
+Faculty Rank: ASSO.                                                             
+******************************************************************************  
+
+PL/SQL procedure successfully completed.
+
+Connected.
+
+User dropped.
+
+Connected.
+DROP USER des04 CASCADE
+          *
+ERROR at line 1:
+ORA-01918: user 'DES04' does not exist 
+
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE evaluation CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE client CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Procedure created.
+
+******************************************************************************  
+Consultant ID: 100.                                                             
+Consultant First Name: Myers. Consultant Last Name: Mark.                       
+******************************************************************************  
+Certification: Y. Description: VB .NET Programming.                             
+Certification: N. Description: Java Programming.                                
+Certification: Y. Description: Oracle Developer Programming.                    
+******************************************************************************  
+Consultant ID: 101.                                                             
+Consultant First Name: Hernandez. Consultant Last Name: Sheila.                 
+******************************************************************************  
+Certification: N. Description: Project Management.                              
+Certification: N. Description: Web Application Programming.                     
+******************************************************************************  
+Consultant ID: 102.                                                             
+Consultant First Name: Zhang. Consultant Last Name: Brian.                      
+******************************************************************************  
+Certification: Y. Description: Oracle Database Administration.                  
+******************************************************************************  
+Consultant ID: 103.                                                             
+Consultant First Name: Carlson. Consultant Last Name: Sarah.                    
+******************************************************************************  
+Certification: Y. Description: VB .NET Programming.                             
+Certification: Y. Description: Oracle Developer Programming.                    
+Certification: Y. Description: Windows NT/2000 Network Administration.          
+Certification: Y. Description: Windows XP Network Administration.               
+******************************************************************************  
+Consultant ID: 104.                                                             
+Consultant First Name: Courtlandt. Consultant Last Name: Paul.                  
+******************************************************************************  
+Certification: N. Description: Windows NT/2000 Network Administration.          
+Certification: Y. Description: Windows XP Network Administration.               
+******************************************************************************  
+Consultant ID: 105.                                                             
+Consultant First Name: Park. Consultant Last Name: Janet.                       
+******************************************************************************  
+Certification: N. Description: COBOL Programming.                               
+Certification: N. Description: Java Programming.                                
+Certification: Y. Description: Project Management.                              
+
+PL/SQL procedure successfully completed.
+
+Connected.
+
+User dropped.
+
+Connected.
+DROP USER nora02 CASCADE
+          *
+ERROR at line 1:
+ORA-01918: user 'NORA02' does not exist 
+
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE order_line CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE shipment_line CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE shipment CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE inventory CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE color CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE item CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE category CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE orders CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE order_source CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE customer CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Procedure created.
+
+***********************************************************************         
+Item ID: 1. Item Description: Men's Expedition Parka.
+			Category ID: 3.        
+***********************************************************************         
+Color: Spruce. Size: S. Price: $199.95. Quantity on hand: 114.                  
+Color: Spruce. Size: M. Price: $199.95. Quantity on hand: 17.                   
+Color: Spruce. Size: L. Price: $209.95. Quantity on hand: 0.                    
+Color: Spruce. Size: XL. Price: $209.95. Quantity on hand: 12.                  
+***********************************************************************         
+Item ID: 6. Item Description: Boy's Surf Shorts.
+			Category ID: 2.             
+***********************************************************************         
+Color: Blue. Size: S. Price: $15.95. Quantity on hand: 50.                      
+Color: Blue. Size: M. Price: $15.95. Quantity on hand: 100.                     
+Color: Blue. Size: L. Price: $15.95. Quantity on hand: 100.                     
+***********************************************************************         
+Item ID: 7. Item Description: Girl's Soccer Tee.
+			Category ID: 2.             
+***********************************************************************         
+Color: White. Size: S. Price: $19.99. Quantity on hand: 100.                    
+Color: White. Size: M. Price: $19.99. Quantity on hand: 100.                    
+Color: White. Size: L. Price: $19.99. Quantity on hand: 100.                    
+***********************************************************************         
+Item ID: 3. Item Description: Women's Hiking Shorts.
+			Category ID: 1.         
+***********************************************************************         
+Color: Khaki. Size: S. Price: $29.95. Quantity on hand: 150.                    
+Color: Khaki. Size: M. Price: $29.95. Quantity on hand: 147.                    
+Color: Khaki. Size: L. Price: $29.95. Quantity on hand: 0.                      
+Color: Navy. Size: S. Price: $29.95. Quantity on hand: 139.                     
+Color: Navy. Size: M. Price: $29.95. Quantity on hand: 137.                     
+Color: Navy. Size: L. Price: $29.95. Quantity on hand: 115.                     
+***********************************************************************         
+Item ID: 5. Item Description: Children's Beachcomber Sandals.
+			Category ID: 2.
+***********************************************************************         
+Color: Turquoise. Size: 10. Price: $15.99. Quantity on hand: 121.               
+Color: Turquoise. Size: 11. Price: $15.99. Quantity on hand: 111.               
+Color: Turquoise. Size: 12. Price: $15.99. Quantity on hand: 113.               
+Color: Turquoise. Size: 1. Price: $15.99. Quantity on hand: 121.                
+Color: Bright Pink. Size: 10. Price: $15.99. Quantity on hand: 148.             
+Color: Bright Pink. Size: 11. Price: $15.99. Quantity on hand: 137.             
+Color: Bright Pink. Size: 12. Price: $15.99. Quantity on hand: 134.             
+Color: Bright Pink. Size: 1. Price: $15.99. Quantity on hand: 123.              
+***********************************************************************         
+Item ID: 2. Item Description: 3-Season Tent.
+			Category ID: 4.                 
+***********************************************************************         
+Color: Sky Blue. Size: . Price: $259.99. Quantity on hand: 16.                  
+Color: Light Grey. Size: . Price: $259.99. Quantity on hand: 12.                
+***********************************************************************         
+Item ID: 4. Item Description: Women's Fleece Pullover.
+			Category ID: 1.       
+***********************************************************************         
+Color: Eggplant. Size: S. Price: $59.95. Quantity on hand: 135.                 
+Color: Eggplant. Size: M. Price: $59.95. Quantity on hand: 168.                 
+Color: Eggplant. Size: L. Price: $59.95. Quantity on hand: 187.                 
+Color: Royal. Size: S. Price: $59.95. Quantity on hand: 0.                      
+Color: Royal. Size: M. Price: $59.95. Quantity on hand: 124.                    
+Color: Royal. Size: L. Price: $59.95. Quantity on hand: 112.                    
+
+PL/SQL procedure successfully completed.
+
+
+Procedure created.
+
+***********************************************************************         
+Item ID: 1. Item Description: Men's Expedition Parka.
+			Category ID: 3.        
+***********************************************************************         
+Color: Spruce. Size: S. Price: $199.95. Quantity on hand: 114.                  
+Item value: $22794.3.                                                           
+Color: Spruce. Size: M. Price: $199.95. Quantity on hand: 17.                   
+Item value: $3399.15.                                                           
+Color: Spruce. Size: L. Price: $209.95. Quantity on hand: 0.                    
+Item value: $0.                                                                 
+Color: Spruce. Size: XL. Price: $209.95. Quantity on hand: 12.                  
+Item value: $2519.4.                                                            
+***********************************************************************         
+Item ID: 6. Item Description: Boy's Surf Shorts.
+			Category ID: 2.             
+***********************************************************************         
+Color: Blue. Size: S. Price: $15.95. Quantity on hand: 50.                      
+Item value: $797.5.                                                             
+Color: Blue. Size: M. Price: $15.95. Quantity on hand: 100.                     
+Item value: $1595.                                                              
+Color: Blue. Size: L. Price: $15.95. Quantity on hand: 100.                     
+Item value: $1595.                                                              
+***********************************************************************         
+Item ID: 7. Item Description: Girl's Soccer Tee.
+			Category ID: 2.             
+***********************************************************************         
+Color: White. Size: S. Price: $19.99. Quantity on hand: 100.                    
+Item value: $1999.                                                              
+Color: White. Size: M. Price: $19.99. Quantity on hand: 100.                    
+Item value: $1999.                                                              
+Color: White. Size: L. Price: $19.99. Quantity on hand: 100.                    
+Item value: $1999.                                                              
+***********************************************************************         
+Item ID: 3. Item Description: Women's Hiking Shorts.
+			Category ID: 1.         
+***********************************************************************         
+Color: Khaki. Size: S. Price: $29.95. Quantity on hand: 150.                    
+Item value: $4492.5.                                                            
+Color: Khaki. Size: M. Price: $29.95. Quantity on hand: 147.                    
+Item value: $4402.65.                                                           
+Color: Khaki. Size: L. Price: $29.95. Quantity on hand: 0.                      
+Item value: $0.                                                                 
+Color: Navy. Size: S. Price: $29.95. Quantity on hand: 139.                     
+Item value: $4163.05.                                                           
+Color: Navy. Size: M. Price: $29.95. Quantity on hand: 137.                     
+Item value: $4103.15.                                                           
+Color: Navy. Size: L. Price: $29.95. Quantity on hand: 115.                     
+Item value: $3444.25.                                                           
+***********************************************************************         
+Item ID: 5. Item Description: Children's Beachcomber Sandals.
+			Category ID: 2.
+***********************************************************************         
+Color: Turquoise. Size: 10. Price: $15.99. Quantity on hand: 121.               
+Item value: $1934.79.                                                           
+Color: Turquoise. Size: 11. Price: $15.99. Quantity on hand: 111.               
+Item value: $1774.89.                                                           
+Color: Turquoise. Size: 12. Price: $15.99. Quantity on hand: 113.               
+Item value: $1806.87.                                                           
+Color: Turquoise. Size: 1. Price: $15.99. Quantity on hand: 121.                
+Item value: $1934.79.                                                           
+Color: Bright Pink. Size: 10. Price: $15.99. Quantity on hand: 148.             
+Item value: $2366.52.                                                           
+Color: Bright Pink. Size: 11. Price: $15.99. Quantity on hand: 137.             
+Item value: $2190.63.                                                           
+Color: Bright Pink. Size: 12. Price: $15.99. Quantity on hand: 134.             
+Item value: $2142.66.                                                           
+Color: Bright Pink. Size: 1. Price: $15.99. Quantity on hand: 123.              
+Item value: $1966.77.                                                           
+***********************************************************************         
+Item ID: 2. Item Description: 3-Season Tent.
+			Category ID: 4.                 
+***********************************************************************         
+Color: Sky Blue. Size: . Price: $259.99. Quantity on hand: 16.                  
+Item value: $4159.84.                                                           
+Color: Light Grey. Size: . Price: $259.99. Quantity on hand: 12.                
+Item value: $3119.88.                                                           
+***********************************************************************         
+Item ID: 4. Item Description: Women's Fleece Pullover.
+			Category ID: 1.       
+***********************************************************************         
+Color: Eggplant. Size: S. Price: $59.95. Quantity on hand: 135.                 
+Item value: $8093.25.                                                           
+Color: Eggplant. Size: M. Price: $59.95. Quantity on hand: 168.                 
+Item value: $10071.6.                                                           
+Color: Eggplant. Size: L. Price: $59.95. Quantity on hand: 187.                 
+Item value: $11210.65.                                                          
+Color: Royal. Size: S. Price: $59.95. Quantity on hand: 0.                      
+Item value: $0.                                                                 
+Color: Royal. Size: M. Price: $59.95. Quantity on hand: 124.                    
+Item value: $7433.8.                                                            
+Color: Royal. Size: L. Price: $59.95. Quantity on hand: 112.                    
+Item value: $6714.4.                                                            
+
+PL/SQL procedure successfully completed.
+
+Connected.
+
+User dropped.
+
+Connected.
+DROP USER des04 CASCADE
+          *
+ERROR at line 1:
+ORA-01918: user 'DES04' does not exist 
+
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE evaluation CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE client CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Procedure created.
+
+Consultant ID: 100. Last name: Myers. First name: Mark.                         
+-------------------------------------------------------------------------.      
+Skill Description: VB .NET Programming.                                         
+New certification: Y.                                                           
+Old certification: Y.                                                           
+Skill Description: Java Programming.                                            
+New certification: Y.                                                           
+Old certification: N.                                                           
+Skill Description: Oracle Developer Programming.                                
+New certification: Y.                                                           
+Old certification: Y.                                                           
+
+PL/SQL procedure successfully completed.
+
+Consultant ID: 101. Last name: Hernandez. First name: Sheila.                   
+-------------------------------------------------------------------------.      
+Skill Description: Project Management.                                          
+New certification: N.                                                           
+Old certification: N.                                                           
+Skill Description: Web Application Programming.                                 
+New certification: N.                                                           
+Old certification: N.                                                           
+
+PL/SQL procedure successfully completed.
+
+Wrong option. You must insert Y or N.                                           
+Certification informed: G.                                                      
+
+PL/SQL procedure successfully completed.
+
+Consultant ID: 104. Last name: Courtlandt. First name: Paul.                    
+-------------------------------------------------------------------------.      
+Skill Description: Windows NT/2000 Network Administration.                      
+New certification: Y.                                                           
+Old certification: N.                                                           
+Skill Description: Windows XP Network Administration.                           
+New certification: Y.                                                           
+Old certification: Y.                                                           
+
+PL/SQL procedure successfully completed.
+
